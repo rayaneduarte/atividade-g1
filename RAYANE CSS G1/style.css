@@ -1,4 +1,3 @@
-/* Estilos Globais */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Cabeçalho */
 .header {
     background-color: #d50000;
     color: white;
@@ -31,7 +29,6 @@ body {
     z-index: 10;
 }
 
-/* Container Principal */
 .container {
     display: flex;
     flex-direction: column;
@@ -42,7 +39,6 @@ body {
     margin: 0 auto;
 }
 
-/* Seções de Notícias */
 .noticia {
     display: flex;
     flex-direction: row;
@@ -104,7 +100,6 @@ body {
     margin-top: 10px;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .noticia {
         flex-direction: column;
